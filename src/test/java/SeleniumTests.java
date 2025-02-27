@@ -37,6 +37,5 @@ public class SeleniumTests {
         navigationLink.click();
         assertEquals("https://bonigarcia.dev/selenium-webdriver-java/navigation1.html", driver.getCurrentUrl());
         assertEquals("Hands-On Selenium WebDriver with Java", driver.getTitle());
-        
     }
 }
